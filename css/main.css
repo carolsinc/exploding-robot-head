@@ -42,32 +42,31 @@ body {
 .robot-head-right,
 .robot-head-left {
   width: 125px;
-  position:absolute;
 }
 
 .robot-head-right {
-  top: 54%;
-  left: 57%;
-  transform: translate(-46%, -43%);
+  position:absolute;
+  top: 26%;
+  left: 50%;
 }
 
 .robot-head-left {
+  position:absolute;
   top: 54%;
   left: 43%;
-  transform: translate(-46%, -57%);
+  transform: translate(-50%, -50%);
 }
 
-.robot-head-left:hover {
-    top: 50%;
-    left: 37%;
+.robot:hover .robot-head-left {
+  top: 50%;
+  left: 37%;
+}
+.robot:hover .robot-head-right {
+  top: 23%;
+  left: 55%;
 }
 
-.robot-head-right:hover {
-    top: 50%;
-    left: 63%;
-}
-
-.robot-brain:hover {
+.robot:hover .robot-brain {
   top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
