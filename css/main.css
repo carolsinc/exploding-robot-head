@@ -21,7 +21,10 @@ body {
 
 .robot {
   width: 320px;
-  height: 1px;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .robot-body {
@@ -54,12 +57,12 @@ body {
 .robot-head-left {
   position: absolute;
   top: 7%;
-  left: 30%;
+  left: 11%;
 }
 
 .robot:hover .robot-head-left {
   top: 5%;
-  left: 25%;
+  left: 6%;
 }
 
 .robot:hover .robot-head-right {
